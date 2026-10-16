@@ -1,0 +1,16 @@
+{
+  "name": "tesseract_teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tesseract.js-data/por": "^1.0.0",
+    "tesseract.js": "^7.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leitor de Imagem - Tesseract</title>
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <h1>Leitor de Imagem</h1>
+
+    <input type="file" id="imagem" accept="image/*" capture="camera" />
+
+    <button id="lerTexto">
+        Ler texto
+    </button>
+
+    <p id="status"></p>
+    <img id="preview" width="250" style="display: none;" alt="Pré-visualização da imagem"/>
+     <button id="copiarTexto">Copiar texto</button>
+    <textarea
+        id="resultado"
+        rows="15"
+        cols="80"
+        placeholder="O texto reconhecido aparecerá aqui..."
+    ></textarea>
+   
+
+    <script src="./app.js"></script>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/Melo-Luisa" target="_blank">Melow 🪲</a></p>
+    </footer>
+</body>
+
+</html>
