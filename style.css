@@ -196,7 +196,7 @@ textarea:focus-visible {
     display: block;
     width: 100%;
     max-width: 760px;
-    min-height: 280px;
+    min-height: 180px;
     padding: 20px;
     background: var(--surface);
     color: var(--text);
